@@ -47,14 +47,37 @@
 \setlength{\parskip}{1em}
 \setlength\parindent{0pt}
 
+\usepackage{titling}
 \usepackage{titlesec}
+\pretitle{\Huge\bfseries}
+\posttitle{\par}
 
 \titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
 \titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
 \titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
 
-\date{22-03-2019}
-\author{cjd47}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{cjd47}
+\lhead{CM30141: \textit{Theory of Human-Computer Interaction}}
+\cfoot{\thepage} 
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\newcommand\wordcount[1]{
+\vfill
+\textit{Word count: {#1} words}}
+
+\newcommand\essaytitle[1]{
+\begin{Huge}
+\textbf{{#1}} \\
+\\
+\end{Huge}}
+
 %%
 %% END OF DEFINITIONS
 %%
