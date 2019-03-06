@@ -1,0 +1,1 @@
+gswin64 -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=cjd47.pdf essay1.pdf essay2.pdf
