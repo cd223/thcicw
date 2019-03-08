@@ -1,0 +1,35 @@
+Search & Sensemaking
+Pirolli, P., Schank, P., Hearst, M., & Diehl, C. (1996, April). Scatter/gather browsing communicates the topic structure of a very large text collection. In Proceedings of the SIGCHI conference on Human factors in computing systems (pp. 213-220). ACM.
+Pirolli, P., & Card, S. K. (1999). Information foraging. Psychological Review, 105(1), 58-82.
+Pirolli, P., & Card, S. (1999). Information foraging. Psychological Review, 106(4), 643.
+Russell, D. M., Stefik, M. J., Pirolli, P., & Card, S. K. (1993, May). The cost structure of sensemaking. In Proceedings of the INTERACT'93 and CHI'93 conference on Human factors in computing systems (pp. 269-276). ACM.
+
+Multitasking
+Henderson Jr, D. A., & Card, S. (1986). Rooms: the use of multiple virtual workspaces to reduce space contention in a window-based graphical user interface. ACM Transactions on Graphics (TOG), 5(3), 211-243.
+Jin, J., & Dabbish, L. A. (2009, April). Self-interruption on the computer: a typology of discretionary task interleaving. In Proceedings of the SIGCHI conference on human factors in computing systems (pp. 1799-1808). ACM.
+Salvucci, D. D., & Taatgen, N. A. (2008). Threaded cognition: an integrated theory of concurrent multitasking. Psychological review, 115(1), 101.
+
+Information Vizualisation
+Card, S. K., & Mackinlay, J. (1997, October). The structure of the information visualization design space. In Information Visualization, 1997. Proceedings., IEEE Symposium on (pp. 92-99). IEEE.
+Dix, A., & Ellis, G. (1998, May). Starting simple: adding value to static visualisation through simple interaction. In Proceedings of the working conference on Advanced visual interfaces (pp. 124-134). ACM.
+Pinker, S. (1990). A theory of graph comprehension. Artificial intelligence and the future of testing, 73-126.
+
+Persuasive Technology
+Fogg, B. J. (2002). Persuasive technology: using computers to change what we think and do. Ubiquity, 2002(December), 5.
+Wai, C., & Mortensen, P. (2007). Persuasive technologies should boring. In Persuasive Technology (pp. 96-99). Springer Berlin Heidelberg. (Case study of Nike +)
+Oinas-Kukkonen, H., & Harjumaa, M. (2008). A systematic framework for designing and evaluating persuasive systems. In Persuasive Technology (pp. 164-176). Springer Berlin Heidelberg.
+
+Security & Trust
+Adams, A., & Sasse, M. A. (1999). Users are not the enemy. Communications of the ACM, 42(12), 40-46.
+Lin, E., Greenberg, S., Trotter, E., Ma, D., & Aycock, J. (2011, May). Does domain highlighting help people identify phishing sites?. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (pp. 2075-2084). ACM.
+Lee, J., & Moray, N. (1992). Trust, control strategies and allocation of function in human-machine systems. Ergonomics, 35(10), 1243-1270.
+Jøsang, A., Ismail, R., & Boyd, C. (2007). A survey of trust and reputation systems for online service provision. Decision support systems, 43(2), 618-644.
+
+Social Networks
+Ellison, N. B., Steinfield, C., & Lampe, C. (2007). The benefits of Facebook “friends:” Social capital and college students’ use of online social network sites. Journal of Computer‐Mediated Communication, 12(4), 1143-1168.
+Wellman, B., Salaff, J., Dimitrova, D., Garton, L., Gulia, M., & Haythornthwaite, C. (1996). Computer networks as social networks: Collaborative work, telework, and virtual community. Annual review of sociology, 213-238.
+
+Crisis Informatics
+Palen, L., Vieweg, S., Sutton, J., Liu, S. B., & Hughes, A. L. (2007). Crisis informatics: Studying crisis in a networked world.”. In Proceedings of the Third International Conference on E‐Social Science.
+Starbird, K., & Stamberger, J. (2010). Tweak the tweet: Leveraging microblogging proliferation with a prescriptive syntax to support citizen reporting.
+Vieweg, S., Hughes, A. L., Starbird, K., & Palen, L. (2010, April). Microblogging during two natural hazards events: what twitter may contribute to situational awareness. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (pp. 1079-1088). ACM.
