@@ -19,6 +19,12 @@ Fogg, B. J. (2002). Persuasive technology: using computers to change what we thi
 Wai, C., & Mortensen, P. (2007). Persuasive technologies should boring. In Persuasive Technology (pp. 96-99). Springer Berlin Heidelberg. (Case study of Nike +)
 Oinas-Kukkonen, H., & Harjumaa, M. (2008). A systematic framework for designing and evaluating persuasive systems. In Persuasive Technology (pp. 164-176). Springer Berlin Heidelberg.
 
+- review developments, 
+- what they have in common, 
+- how a design science developed to tackle questions
+- background in psychology
+- relations between user needs and system design so as to inform future designs.
+
 Security & Trust
 Adams, A., & Sasse, M. A. (1999). Users are not the enemy. Communications of the ACM, 42(12), 40-46.
 Lin, E., Greenberg, S., Trotter, E., Ma, D., & Aycock, J. (2011, May). Does domain highlighting help people identify phishing sites?. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (pp. 2075-2084). ACM.
