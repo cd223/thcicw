@@ -6,20 +6,9 @@
 Persuasion is the act of influencing or reinforcing certain attitudes and behaviours \citep{khaled2008}. The use of technology for encouraging behavioural change to benefit its users or the wider community is a long-term area of research \citep{fogg2002}. This review will present a summary and critical analysis of \citet{orji2017} whose paper explores the use of personalisation models as a persuasive device for improving the efficacy of games which are designed to change user behaviour, as well as putting forward a set of suggestions for future work in this domain of Persuasive Technology.
 
 \sectiontitle{Summary of Contributions}
-\citet{orji2017} highlight the rising prominence of \textit{games for change}\footnote{An annual festival exists for workshops and design classes on games for change: \url{www.gamesforchange.org}} that are designed for purposes other than entertainment, to effectively educate players about certain topics in a way that influences their behaviour \citep{busch2015}. The authors raise the issue that many such games are designed with a ``\textit{one size fits all}'' philosophy whereby the design of the game itself (and its adopted persuasive \textit{strategies}) are not tailored to the \textit{type} of the player. \citet{orji2017} therefore seek to answer two main research questions to understand the observed efficacy of certain strategies in existing games \citep{peng2009,kaipainen2012}. Firstly, whether tailoring games for change to a specific player type increases their persuasiveness. Secondly, if beneficial effects of tailoring are observed, whether these effects are mediated by an improved play experience. If these could be answered, results could inform the future decisions of games designers in which persuasive strategies they adopt to maximise efficacy in certain player types.
+\citet{orji2017} highlight the rising prominence of \textit{games for change}\footnote{An annual festival exists for workshops and design classes on games for change: \url{www.gamesforchange.org}} that are designed for purposes other than entertainment, to effectively educate players about certain topics in a way that influences their behaviour \citep{busch2015}.  The authors raise the issue that many such games are designed with a ``\textit{one size fits all}'' philosophy whereby the design of the game itself (and its adopted persuasive \textit{strategies}) are not tailored to the \textit{type} of the player. \citet{orji2017} therefore seek to answer two main research questions to understand the observed efficacy of certain strategies in existing games \citep{peng2009,kaipainen2012}. Firstly, whether tailoring games for change to a specific player type increases their persuasiveness. Secondly, if beneficial effects of tailoring are observed, whether these effects are mediated by an improved play experience. If these could be answered, results could inform the future decisions of games designers in which persuasive strategies they adopt to maximise efficacy in certain player types. 
 
-Initial work by the authors indicated that a strategy shown as effective for one type of user could indeed be detrimental to another \citep{orji2013} (Table \ref{tbl:orji2017-beta-sem}). This table sets out a well-founded taxonomy which maps gamer types defined by the BrainHex model of \citet{nacke2014} (Achiever, Conqueror, Daredevil, Mastermind, Seeker, Socializer and Survivor) against commonly adopted persuasive strategies selected by \citet{gerling2014} based on a large-scale online survey of gamers. 
-
-\begin{table}[H]
-\centering
-\caption{$\beta$ values confusion matrix: Strength of motivation of different players that result from different strategies. Positive $\beta$ values indicate that gamers of this type are motivated by the corresponding given strategy. Negative $\beta$ values indicate demotivation, whilst an empty value indicates neither motivation nor demotivation.
-}\label{tbl:orji2017-beta-sem}
-\includegraphics[width=0.75\textwidth]{img/orji2017-beta-sem.png} 
-\end{table}
-
-Whilst 	..., the data collected from authors' earlier experiments is corroborated by other existing work - treating user groups in a monolithic way is generally considered dangerous, especially in the domain of games for health \citep{berkovsky2010}. 
-
-To evaluate their research questions, \citeauthor{orji2017} implemented two versions of a custom a game called \textit{Junk Food Aliens} (Figure \ref{fig:orji2017-junk-food-aliens}). The reward-based version (JFA-R) adopted persuasive strategies such as achievement badges (Figure \ref{fig:orji2017-junk-food-aliens-reward}) whereas the competition-based version (JFA-C) adopted comparative strategies such as leaderboards (Figure \ref{fig:orji2017-junk-food-aliens-competition}).
+Their paper focuses on the domain of games for healthy eating for illustrative purposes and restricts itself to considering the effects of two persuasive strategies (Competition and Reward) on two types of gamers (Achievers and Competitors). Whilst somewhat limiting, this approach allowed scope for direct pairwise comparison between two types of games shown empirically to be significantly-distinct in their response to these strategies \citep{orji2013a}. Further, these strategies are also common to existing games \citep{bell2006}. To evaluate their research questions, \citeauthor{orji2017} implemented two versions of a custom a game called \textit{Junk Food Aliens} (Figure \ref{fig:orji2017-junk-food-aliens}). The reward-based version (JFA-R) adopted persuasive strategies such as achievement badges (Figure \ref{fig:orji2017-junk-food-aliens-reward}) whereas the competition-based version (JFA-C) adopted comparative strategies such as leaderboards (Figure \ref{fig:orji2017-junk-food-aliens-competition}).
 
 \begin{figure}[H]
 \centering
@@ -40,10 +29,30 @@ To evaluate their research questions, \citeauthor{orji2017} implemented two vers
 \endminipage
 \end{figure}
 
+Initial work by the authors indicated that a strategy shown as effective for one type of user could indeed be detrimental to another \citep{orji2013a} (Table \ref{tbl:orji2017-beta-sem}). This table sets out a well-founded taxonomy which maps 7 gamer types defined by the BrainHex model of \citet{nacke2014} (Achiever, Conqueror, Daredevil, Mastermind, Seeker, Socializer and Survivor) against 10 commonly adopted persuasive strategies selected by \citet{gerling2014} based on a large-scale online survey of 1108 gamers.  In this initial research, authors were careful to validate participation. 
+
+\begin{table}[H]
+\centering
+\caption{$\beta$ values confusion matrix: Strength of motivation of different players that result from different strategies. Positive $\beta$ values indicate that gamers of this type are motivated by the corresponding given strategy. Negative $\beta$ values indicate demotivation, whilst an empty value indicates neither motivation nor demotivation \protect\citep{orji2013a}.
+}\label{tbl:orji2017-beta-sem}
+\includegraphics[width=0.75\textwidth]{img/orji2017-beta-sem.png} 
+\end{table}
+
+Whilst 	..., the data collected from authors' earlier experiments is corroborated by other existing work - treating user groups in a monolithic way is generally considered dangerous, especially in the domain of games for health \citep{berkovsky2010}.  To further justify the need to investigate tailoring, the authors next reviewed the persuasive strategies adopted in a range of existing domains of games for change: healthy eating \citep{kaipainen2012, orji2013b}, physical activity \citep{fujiki2008} and disease management \citep{brownson2007}. The authors by their own admission comment that this list is by no means exhaustive, giving plenty of scope for future research in other domains.
+
+The authors highlight that by failing to consider gamer type, neither of the strategies dominate in their effectiveness.
+
+o	Considering gamer type reveals players only respond to tailored persuasive game intervention (Reward for Achievers and Comparison for Conquerors) and not to contra-tailored intervention, even though the underlying game mechanics the same. 
+o	Parallel mediated regressions [Hayes 2013] show beneficial effects of tailoring not explained by improved player experience from personalized game that appeals more to that gamer type. 
+o	Research relevant for researchers who investigate games as interventions in domains
+o	such as health. 
+o	Guide design decisions of game designers and developers.
+
 Main contributions of \citet{orji2017} are therefore fourfold. First, it is important to tailor games for change in order to observe any efficacy as the main experiment demonstrates by measure of change in attitude, self-efficacy, and intention. Second, tailoring can be achieved by modifying the persuasive strategies adopted, rather than the mechanics of the game which will surely minimise the tailoring costs involved. 
 Thirdly, the resulting positive effect of tailoring was not seen to be mediated purely by an improved player experience which, if it remained untested, would be a very strong potential confounding factor. Finally, the adoption of a single persuasive strategy is sufficient to observe these effects - combining additional strategies is unpredictable and may be somewhat counter-productive.
 
 \sectiontitle{Justifications for Conclusions}
+...
 
 \begin{figure}[H]
 \centering
@@ -58,8 +67,10 @@ Thirdly, the resulting positive effect of tailoring was not seen to be mediated 
 \end{figure}
 
 \sectiontitle{Limitations and Suggested Further Work}
+...
 
 \sectiontitle{Conclusion}
+...
 
 \wordcount{0}
 
