@@ -1,14 +1,23 @@
-\documentclass[12pt]{article}
+\documentclass[11pt]{article}
 \include{EssayDefs}
 
 \begin{document}
 \essaytitle{Critical Review: Improving the Efficacy of Games for Change Using Personalization Models}
-The use of technology for encouraging behavioural change to benefit its users or the wider community is a long-term area of research. This review will present a summary and critical analysis of \citet{orji2017} whose paper explores the use of personalisation models as a persuasive device for improving the efficacy of games which are designed to change user behaviour, as well as putting forward a set of suggestions for future work in this domain of Persuasive Technology.
+Persuasion is the act of influencing or reinforcing certain attitudes and behaviours \citep{khaled2008}. The use of technology for encouraging behavioural change to benefit its users or the wider community is a long-term area of research \citep{fogg2002}. This review will present a summary and critical analysis of \citet{orji2017} whose paper explores the use of personalisation models as a persuasive device for improving the efficacy of games which are designed to change user behaviour, as well as putting forward a set of suggestions for future work in this domain of Persuasive Technology.
 
 \sectiontitle{Summary of Contributions}
-\citeauthor{orji2017} seek to answer two main research questions. Firstly, whether tailoring games for change to a specific player type increases their persuasiveness. Secondly, whether the beneficial effects of tailoring are mediated by an improved play experience.
+\citet{orji2017} highlight the rising prominence of \textit{games for change} that are designed for purposes other than entertainment, to effectively educate players about certain topics in a way that influences their behaviour \citep{busch2015}. The authors raise the issue that many such games are designed with a ``\textit{one size fits all}'' philosophy whereby the design of the game itself (and its adopted persuasive \textit{strategies}) are not tailored to the \textit{type} of the player. Previous work by the authors indicated that a strategy shown as effective for one type of user could indeed be detrimental to another \citep{orji2013} (Table \ref{tbl:orji2017-beta-sem}). This conclusion from the authors' earlier experiments is corroborated by other existing work - treating user groups in a monolithic way is generally considered dangerous, especially in the domain of games for health \citep{berkovsky2010}. 
 
-To meet their objectives, the authors begin by assessing the current state of the domain of games for change.
+\begin{table}[H]
+\centering
+\caption{$\beta$ values confusion matrix: Strength of motivation of different players that result from different strategies. Positive $\beta$ values indicate that gamers of this type are motivated by the corresponding given strategy. Negative $\beta$ values indicate demotivation, whilst an empty value indicates neither motivation demotivation.
+}\label{tbl:orji2017-beta-sem}
+\includegraphics[width=0.75\textwidth]{img/orji2017-beta-sem.png} 
+\end{table}
+
+\citet{orji2017} therefore seek to answer two main research questions to understand the observed efficacy of certain strategies in existing games \citep{peng2009,kaipainen2012}. Firstly, whether tailoring games for change to a specific player type increases their persuasiveness. Secondly, if beneficial effects of tailoring are observed, whether these effects are mediated by an improved play experience. If these could be answered, results could inform the future decisions of games designers in which persuasive strategies they adopt to maximise efficacy in certain player types.
+
+To evaluate their hypotheses, the authors implemented two versions of a custom a game called \textit{Junk Food Aliens} (Figure \ref{fig:orji2017-junk-food-aliens}). The reward-based version (JFA-R) adopted persuasive strategies such as achievement badges (Figure \ref{fig:orji2017-junk-food-aliens-reward}) whereas the competition-based version (JFA-C) adopted comparative strategies such as leaderboards (Figure \ref{fig:orji2017-junk-food-aliens-competition}).
 
 \begin{figure}[H]
 \centering
@@ -16,22 +25,18 @@ To meet their objectives, the authors begin by assessing the current state of th
 \caption{``Junk Food Aliens'' (JFA): A persuasive game designed to change gamer behaviour towards healthy eating.}\label{fig:orji2017-junk-food-aliens}
 \end{figure}
 
-\begin{table}[H]
-\centering
-\caption{$\beta$ values: Strength of motivation of different players that result from different strategies.}\label{tbl:orji2017-beta-sem}
-\includegraphics[width=0.75\textwidth]{img/orji2017-beta-sem.png} 
-\end{table}
+
 
 \begin{figure}[H]
 \minipage{0.5\textwidth}
 \centering
   \includegraphics[height=4cm]{img/orji2017-junk-food-aliens-competition.png}
-  \caption{Competition-based version of JFA.}\label{fig:orji2017-junk-food-aliens-competition}
+  \caption{JFA-C: Competition-based version of JFA.}\label{fig:orji2017-junk-food-aliens-competition}
 \endminipage\hfill
 \minipage{0.5\textwidth}%
 \centering
   \includegraphics[height=4cm]{img/orji2017-junk-food-aliens-reward.png}
-  \caption{Reward-based version of JFA.}\label{fig:orji2017-junk-food-aliens-reward}
+  \caption{JFA-R: Reward-based version of JFA.}\label{fig:orji2017-junk-food-aliens-reward}
 \endminipage
 \end{figure}
 
@@ -56,5 +61,7 @@ To meet their objectives, the authors begin by assessing the current state of th
 \wordcount{0}
 
 \newpage
+\small
 \bibliography{bib1}
+\normalsize
 \end{document}
