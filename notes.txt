@@ -1,0 +1,11 @@
+Essay 1:
+- They critiqued existing work because most studies did not specify which (if any) behavioural theories inform their design or attempted to formalise this process.
+- BrainHex: in game design domain, which contains far less in the way of established taxonomies, Orji et al. were careful to select a model with independent categories
+- series of actionable recommendations for the design of game mechanics based on how each of the HBM determinants map onto each of the seven BrainHex types.
+- only gamers: results may not generalise
+- initial work: difference in sample sizes between smallest and largest of BrainHex typesover 10% of those surveyed
+- 4+ times number of 18-25 as over 45s not considered  weakness, despite successful persuasive health games for elderly [de Oliveira et al., 2010].
+- Choosing the HBM taxonomy over other behaviour models such as Fogg’s behavioural model (FBM) [Fogg, 2002] is that while Fogg’s factors are tailored
+to persuasive technologies, the HBM determinants are more granular and can be more specifically targeted through the implementation of particular game features or strategies.
+- Survey did not collect justifications - reasoning still conjecture.
+- Important findings not generalised - survey relating to HBM determinants specific to healthy eating
