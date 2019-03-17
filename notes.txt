@@ -1,4 +1,4 @@
-Essay 1:
+﻿Essay 1:
 - They critiqued existing work because most studies did not specify which (if any) behavioural theories inform their design or attempted to formalise this process.
 - BrainHex: in game design domain, which contains far less in the way of established taxonomies, Orji et al. were careful to select a model with independent categories
 - series of actionable recommendations for the design of game mechanics based on how each of the HBM determinants map onto each of the seven BrainHex types.
@@ -9,3 +9,16 @@ Essay 1:
 to persuasive technologies, the HBM determinants are more granular and can be more specifically targeted through the implementation of particular game features or strategies.
 - Survey did not collect justifications - reasoning still conjecture.
 - Important findings not generalised - survey relating to HBM determinants specific to healthy eating
+
+Essay 2:
+- tangible surfaces were becoming an increasingly active area of research [Rasmussen et al., 2012, Wu, 2010]
+- Studies which did focus on the physical modality [McGookin et al., 2010] did not evaluate their physicalisations against other modalities. 
+- One study [Dwyer, 2004] which did compare across modalities, did so using a di↵erent visual mapping for each,
+meaning it was impossible to isolate the modality comparison.
+- zoom, relate and details-on-demand tasks of Shneiderman’s seminal infovis task taxonomy [1996].
+- Future work:
+	on larger datasets to find upper limit performance with physicalisations peaks;
+	with tasks which fit into the filter and history categories of Shneiderman’s task taxonomy
+	as comparison with a modality closer to physicalisations in the virtual-physical continuum (VR)
+- Strengths of physicalisations in academic context to diversify teaching methods to appeal to kinaesthetic learners
+[Clausen-May, 2005, Gilakjani, 2011] and students with dyslexia and dyspraxia [Exley,2003].
