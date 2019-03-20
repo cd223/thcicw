@@ -5,7 +5,7 @@
 \essaytitle{Critical Review: Exploring Interactions with Physically Dynamic Bar Charts}
 
 \sectiontitle{Introduction}
-Studies investigating how data can be effectively presented to, explored and interpreted by users forms the core part of Information Visualisation (`InfoVis') to support users in the decision-making process. This review summarises and critically analyses \citet{taher2015} whose paper explores the use of physically dynamic bar charts as devices for exploring user interactions with visualisations of data, to determine future work in this domain of Information Visualisation.
+Studies investigating how data can be effectively presented to, explored and interpreted by users forms the core part of Information Visualisation (`InfoVis') to support users in the decision-making process \citep{card1997}. This review summarises and critically analyses \citet{taher2015} whose paper explores the use of physically dynamic bar charts as devices for exploring user interactions with visualisations of data, to determine future work in this domain of Information Visualisation.
 
 \sectiontitle{Summary of Contributions}
 \citeauthor{taher2015} seeks to extend existing work on use of physical visualisations (\textit{physicalizations}) \citep{jansen2015} to investigate how users interact with \textit{physically dynamic} bar charts as a way of exploring and manipulating shape-changing datasets in the physical world. Much of the existing work reliant on use of physicalizations involve problematic \textit{static} models that do not respond to user interactions \citep{jansen2013} and are therefore ``\textit{disconnected}'' from the source of the data when they are created. With the advent of shape-changing technology and tangible interfaces \citep{rasmussen2012}, there is a window of opportunity for the manufacture of physically dynamic displays to help decision makers reason about and manipulate data sets in a non-virtual and non-static way. It is this motivation that leads \citeauthor{taher2015} to explore the ways users interact with data displayed in this mode to understand whether \textit{physical} interactions with data (such as touching specific bars) or \textit{gestures} (such as swiping a touch-screen) or a combination of the two is more intuitive to users interacting with data visualisations in order to solve common problems. Whilst the authors concede that the use of physical dynamic visualisations is not new \citep{leithinger2010,follmer2013}, they claim there is little in the way of analysis into effective \textit{interactions} with data of \textit{dynamic} physical modality, unlike the abundance of work investigating their static counterparts \citep{stusak2014}.
@@ -60,6 +60,10 @@ techniques. Range = 1: Strongly Disagree, 5: Strongly Agree.}\label{fig:taher201
 \sectiontitle{Limitations and Suggested Further Work}
 \citet{taher2015} present a respectable overview of potential techniques to interact with data presented in a physically dynamic form, but a set of limitations with their work leads to some questions being open to future research. 
 
+The authors concede themselves that the hardware implementation of EMERGE presents a large limitation in their findings. Representation of larger datasets would require a far more data points than the $10\times10$ grid currently allows for. Also, the technical challenges discussed previously (actuation speed and noise, rod spacing, size of setup) may have also mediated or impacted the results in ways that were not accounted for. Almost all participants reacted hesitantly due to these speed and noise of actuation. Further analysis (e.g. use of parallel mediated regression testing) should investigate this.
+
+The InfoVis design space is very large \citep{card1997}, so it would be novel to explore how users perceive dynamic physicalisations which represent complex datasets which \textit{change} in real time - e.g. social network data \citep{federico2011}. As well as responding to human interaction via shape-changing interfaces, these datasets could also change of their own accord which opens up more questions into how users would respond to this type of visualisation.
+
 Authors:
 \begin{itemize}
 \item Data manipulation with external objects
@@ -72,13 +76,10 @@ Authors:
 
 Novel:
 \begin{itemize}
-\item Larger datasets - the 10x10 grid limits representations
-\item Technical challenges (actuation speed and noise, rod spacing, size of setup) may have mediated the results - no investigation e.g. parallel mediated regression testing into this.
-\item Study showed almost all participants hesitant to interact with system due to speed of actuation or noise of actuators
 \item Larger sample size - 17 not enough.
 \item Excluded vertical axis data - difficult to anticipate how this might change user interactions and behaviours.
 \item Not just bar charts!
-\item Complex datasets which change in real time - e.g. social networks \citep{federico2011}.
+\item 
 \item Different taxonomy - zoom, select, derive, sort, history.
 \item Lack of parametric data - study could investigate performance and accuracy of tasks being completed.
 \item Apply it to a specific context to compare across modalities in an educational setting for those who learn best by adopting kinaesthetic techniques \citep{gilakjani2011} or even used in a VR-kin setting \citep{tennent2017}.
